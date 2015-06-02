@@ -10,10 +10,6 @@ fi
 alias colorstrip="perl -pe 's/\e\[?.*?[\@-~]//g'"
 alias rhldap="ldapsearch -x -LLL -h ldap -b ou=users,dc=redhat,dc=com"
 
-COLOR_REG="\033[0m"
-COLOR_GREEN="\033[0;32m"
-COLOR_LBLUE="\033[1;34m"
-COLOR_CYAN="\033[0;36m"
 export PS1="e@\h \W [\j] $ "
 
 export GIT_PS1_SHOWDIRTYSTATE=true
