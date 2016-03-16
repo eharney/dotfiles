@@ -21,3 +21,10 @@ export PS1='e@\h \W [\j] $(declare -F __git_ps1 &>/dev/null && __git_ps1 "(%s)")
 
 # Security concerns related to libbfd probing.
 alias strings='strings -a'
+
+# Python dev env setup
+#export PATH=$PATH:$HOME/.local/bin/
+#export PYTHONPATH=$HOME/.local/lib/python2.7/site-packages/
+
+# Grey out pyc files
+export LS_COLORS=$LS_COLORS:*.pyc=0\;37
