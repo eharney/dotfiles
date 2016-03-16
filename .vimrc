@@ -17,3 +17,7 @@ set cryptmethod=blowfish2
 " Work around screwy colors in F22 vim
 set t_Co=256
 colorscheme default
+
+if has("autocmd")
+  au BufReadPost * if line("'\"") > 1 && line("'\"") <= line("$") | exe "normal! g'\"" | endif
+endif
