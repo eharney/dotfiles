@@ -1,0 +1,6 @@
+OPTIONS:name=Eric
+OPTIONS:color
+OPTIONS:pickup_types=$
+OPTIONS:extmenu
+OPTIONS:showexp
+OPTIONS:number_pad=2
