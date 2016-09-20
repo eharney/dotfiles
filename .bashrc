@@ -28,3 +28,10 @@ alias strings='strings -a'
 
 # Grey out pyc files
 export LS_COLORS=$LS_COLORS:*.pyc=0\;37
+
+# Remove quoting of filenames w/ spaces etc.
+# coreutils now defaults to a fancier style.
+export QUOTING_STYLE=literal
+
+# Needed for bash ctrl-x ctrl-e
+export EDITOR=vim
