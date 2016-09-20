@@ -3,10 +3,10 @@
 }
 
 GtkEntry {
-  gtk-key-bindings: FixMyFirefox
+  -gtk-key-bindings: FixMyFirefox
 }
 
 GtkTextView {
-  gtk-key-bindings: FixMyFirefox
+  -gtk-key-bindings: FixMyFirefox
 }
 
