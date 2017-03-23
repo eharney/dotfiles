@@ -35,3 +35,6 @@ export QUOTING_STYLE=literal
 
 # Needed for bash ctrl-x ctrl-e
 export EDITOR=vim
+
+# Use ssh host completion for mosh
+complete -F _known_hosts mosh
