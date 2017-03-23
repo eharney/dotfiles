@@ -1,0 +1,22 @@
+[include]
+	# Put user name and email in this file
+	path = ~/.gitconfig.user
+[giggle]
+	main-window-maximized = true
+	main-window-geometry = 0x0+0+0
+	history-view-vpane-position = 423
+	file-view-vpane-position = 617
+	main-window-view = HistoryView
+	show-graph = true
+[diff]
+#	external = /home/eharney/diff.py
+[diff]
+	renamelimit = 0
+[push]
+	default = simple
+[color]
+	ui = true
+[core]
+	editor = vim
+[branch]
+	autosetupmerge = true
