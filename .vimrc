@@ -8,6 +8,7 @@ set undoreload=1000
 
 autocmd BufRead *.py set smartindent cinwords=if,elif,else,for,while,try,except,finally,def,class
 autocmd BufRead *.py set et
+autocmd BufRead *.rst set textwidth=78
 
 set tabstop=4
 set shiftwidth=4
