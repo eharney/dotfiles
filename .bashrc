@@ -38,3 +38,6 @@ export EDITOR=vim
 
 # Use ssh host completion for mosh
 complete -F _known_hosts mosh
+
+# Make tox nicer
+alias tox="nice -n 3 tox"
