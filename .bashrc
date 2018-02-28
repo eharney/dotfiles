@@ -40,4 +40,4 @@ export EDITOR=vim
 complete -F _known_hosts mosh
 
 # Make tox nicer
-alias tox="nice -n 3 tox"
+alias tox="nice -n 5 tox"
